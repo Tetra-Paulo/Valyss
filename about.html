@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About TetraPod - Procurement Excellence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #003366;
+    padding: 1rem 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo {
+    height: 85px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+
+.nav-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav-toggle:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 51, 102, 0.95);
+        z-index: 101;
+        overflow-y: auto;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .logo {
+        margin-bottom: 1rem;
+    }
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+.about {
+    padding: 2rem 0;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.team-section {
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.team-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 2rem;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.team-member {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+.team-member p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .about h2,
+    .team-section h2 {
+        font-size: 2rem;
+    }
+
+    .about p,
+    .team-member p {
+        font-size: 1rem;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+}
+
+.auto-style1 {
+	width: 100%;
+	max-height: 120px;
+	object-fit: cover;
+	vertical-align: middle;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <img src="../images/tetrapod-logo.png" alt="TetraPod Logo" class="logo" style="height: 85px">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="valyss.html">Valyss</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    &nbsp;</section><section class="about">
+        <div class="container">
+            <h2>About TetraPod</h2>
+            <p>At TetraPod, we are more than a procurement consulting firm; we are your partners in achieving procurement excellence. With a rich history spanning over 30 years, our expertise is rooted in a deep understanding of global supply chain dynamics and a passion for driving sustainable value.</p>
+            
+            <p>Our mission is to empower businesses to transform their procurement functions into strategic assets. We focus on delivering tailored solutions that not only optimize processes but also foster innovation, mitigate risks, and enhance overall business performance.</p>
+            
+            <p>We work across various industries, including:</p>
+            <ul>
+                <li>FMCG</li>
+                <li>Chemical</li>
+                 <li>Automotive</li>
+                 <li>Pharmaceutical</li>
+                 <li>Heavy industry</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>Paulo Ferreira</h3>
+                    <p><strong>Founder & CEO</strong></p>
+                    <p>Paulo brings over 30 years of experience in procurement and supply chain management.  A seasoned leader with a proven track record of driving transformative change in global organizations.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Our Consultants</h3>
+                    <p>Our team comprises experts in:</p>
+                    <p>Category Management</p>
+                    <p>Strategic Sourcing</p>
+                    <p>Supply Chain Optimization</p>
+                    <p>Risk Management</p>
+                    <p>Digital Procurement</p>
+                </div>
+            </div>
+            
+            <h2>&nbsp;</h2>
+			<h2 class="team-member">Why Choose TetraPod?</h2>
+			<p class="team-member"><strong>Proven Expertise:</strong> Extensive experience in category management, supply chain optimization, and risk mitigation.</p>
+			<p class="team-member"><strong>Innovation-Driven:</strong> We deploy advanced procurement tools and methodologies to unlock hidden value.</p>
+			<p class="team-member"><strong>Sustainability Focus:</strong> Our solutions align with global standards for responsible sourcing and ESG compliance.</p>
+        	<p>&nbsp;</p>
+        </div>
+    </section>
+
+    <section class="banner-section">
+        <img src="../images/tetrapod-banner.jpg" alt="TetraPod Banner" class="auto-style1" height="75%" style="width: 75%">
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>TetraPod - Procurement Excellence</p>
+            <p>De Merodestraat, 13 - 1850 Grimbergen - Belgium</p>
+            <p>Email: paulo.ferreira@tetrapod.be | Phone: +32474553785</p>
+            <p>&copy; 2025 TetraPod. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile navigation toggle
+    const navToggle = document.createElement('div');
+    navToggle.className = 'nav-toggle';
+    navToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    
+    const nav = document.querySelector('nav');
+    const headerContainer = document.querySelector('.header-container');
+    
+    if (window.innerWidth <= 768) {
+        headerContainer.appendChild(navToggle);
+        nav.classList.add
